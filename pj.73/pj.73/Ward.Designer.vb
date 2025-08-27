@@ -38,8 +38,9 @@ Partial Class Ward
         Me.PanelWard.Controls.Add(Me.PictureBox1)
         Me.PanelWard.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelWard.Location = New System.Drawing.Point(0, 0)
+        Me.PanelWard.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.PanelWard.Name = "PanelWard"
-        Me.PanelWard.Size = New System.Drawing.Size(991, 562)
+        Me.PanelWard.Size = New System.Drawing.Size(881, 450)
         Me.PanelWard.TabIndex = 0
         '
         'TableLayoutPanel1
@@ -53,20 +54,22 @@ Partial Class Ward
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.btnWardList, 0, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.btnBedList, 1, 0)
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(262, 191)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(233, 153)
+        Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 1
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(481, 154)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(428, 123)
         Me.TableLayoutPanel1.TabIndex = 1
         '
         'btnWardList
         '
         Me.btnWardList.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.btnWardList.Location = New System.Drawing.Point(3, 3)
+        Me.btnWardList.Location = New System.Drawing.Point(3, 2)
+        Me.btnWardList.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnWardList.Name = "btnWardList"
-        Me.btnWardList.Size = New System.Drawing.Size(234, 148)
+        Me.btnWardList.Size = New System.Drawing.Size(208, 119)
         Me.btnWardList.TabIndex = 0
         Me.btnWardList.Text = "Ward List"
         Me.btnWardList.UseVisualStyleBackColor = True
@@ -74,9 +77,10 @@ Partial Class Ward
         'btnBedList
         '
         Me.btnBedList.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.btnBedList.Location = New System.Drawing.Point(243, 3)
+        Me.btnBedList.Location = New System.Drawing.Point(217, 2)
+        Me.btnBedList.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnBedList.Name = "btnBedList"
-        Me.btnBedList.Size = New System.Drawing.Size(235, 148)
+        Me.btnBedList.Size = New System.Drawing.Size(208, 119)
         Me.btnBedList.TabIndex = 1
         Me.btnBedList.Text = "Bed List"
         Me.btnBedList.UseVisualStyleBackColor = True
@@ -87,18 +91,20 @@ Partial Class Ward
         Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PictureBox1.Image = Global.pj._73.My.Resources.Resources.Screenshot_2025_08_08_161313
         Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(991, 562)
+        Me.PictureBox1.Size = New System.Drawing.Size(881, 450)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
         'Ward
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(991, 562)
+        Me.ClientSize = New System.Drawing.Size(881, 450)
         Me.Controls.Add(Me.PanelWard)
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "Ward"
         Me.Text = "Ward"
         Me.PanelWard.ResumeLayout(False)

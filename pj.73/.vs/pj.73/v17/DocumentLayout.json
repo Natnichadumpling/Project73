@@ -1,0 +1,145 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\1101173\\Project73\\pj.73\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A160D613-8B75-462A-86C6-EB660AB5EC19}|pj.73\\pj.73.vbproj|d:\\1101173\\project73\\pj.73\\pj.73\\ward.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{A160D613-8B75-462A-86C6-EB660AB5EC19}|pj.73\\pj.73.vbproj|solutionrelative:pj.73\\ward.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A160D613-8B75-462A-86C6-EB660AB5EC19}|pj.73\\pj.73.vbproj|D:\\1101173\\Project73\\pj.73\\pj.73\\bedlist.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{A160D613-8B75-462A-86C6-EB660AB5EC19}|pj.73\\pj.73.vbproj|solutionrelative:pj.73\\bedlist.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A160D613-8B75-462A-86C6-EB660AB5EC19}|pj.73\\pj.73.vbproj|D:\\1101173\\Project73\\pj.73\\pj.73\\wardlist addward.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{A160D613-8B75-462A-86C6-EB660AB5EC19}|pj.73\\pj.73.vbproj|solutionrelative:pj.73\\wardlist addward.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A160D613-8B75-462A-86C6-EB660AB5EC19}|pj.73\\pj.73.vbproj|D:\\1101173\\Project73\\pj.73\\pj.73\\wardlist.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{A160D613-8B75-462A-86C6-EB660AB5EC19}|pj.73\\pj.73.vbproj|solutionrelative:pj.73\\wardlist.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A160D613-8B75-462A-86C6-EB660AB5EC19}|pj.73\\pj.73.vbproj|D:\\1101173\\Project73\\pj.73\\pj.73\\ward.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{A160D613-8B75-462A-86C6-EB660AB5EC19}|pj.73\\pj.73.vbproj|solutionrelative:pj.73\\ward.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A160D613-8B75-462A-86C6-EB660AB5EC19}|pj.73\\pj.73.vbproj|D:\\1101173\\Project73\\pj.73\\pj.73\\wardlist.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{A160D613-8B75-462A-86C6-EB660AB5EC19}|pj.73\\pj.73.vbproj|solutionrelative:pj.73\\wardlist.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A160D613-8B75-462A-86C6-EB660AB5EC19}|pj.73\\pj.73.vbproj|D:\\1101173\\Project73\\pj.73\\pj.73\\main menu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{A160D613-8B75-462A-86C6-EB660AB5EC19}|pj.73\\pj.73.vbproj|solutionrelative:pj.73\\main menu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A160D613-8B75-462A-86C6-EB660AB5EC19}|pj.73\\pj.73.vbproj|D:\\1101173\\Project73\\pj.73\\pj.73\\main menu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{A160D613-8B75-462A-86C6-EB660AB5EC19}|pj.73\\pj.73.vbproj|solutionrelative:pj.73\\main menu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ward.vb",
+              "DocumentMoniker": "D:\\1101173\\Project73\\pj.73\\pj.73\\Ward.vb",
+              "RelativeDocumentMoniker": "pj.73\\Ward.vb",
+              "ToolTip": "D:\\1101173\\Project73\\pj.73\\pj.73\\Ward.vb",
+              "RelativeToolTip": "pj.73\\Ward.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-08-23T14:54:59.051Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WardList.vb",
+              "DocumentMoniker": "D:\\1101173\\Project73\\pj.73\\pj.73\\WardList.vb",
+              "RelativeDocumentMoniker": "pj.73\\WardList.vb",
+              "ToolTip": "D:\\1101173\\Project73\\pj.73\\pj.73\\WardList.vb",
+              "RelativeToolTip": "pj.73\\WardList.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-08-23T15:08:53.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Ward.vb [Design]",
+              "DocumentMoniker": "D:\\1101173\\Project73\\pj.73\\pj.73\\Ward.vb",
+              "RelativeDocumentMoniker": "pj.73\\Ward.vb",
+              "ToolTip": "D:\\1101173\\Project73\\pj.73\\pj.73\\Ward.vb [Design]",
+              "RelativeToolTip": "pj.73\\Ward.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-08-23T14:54:51.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BedList.vb [Design]",
+              "DocumentMoniker": "D:\\1101173\\Project73\\pj.73\\pj.73\\BedList.vb",
+              "RelativeDocumentMoniker": "pj.73\\BedList.vb",
+              "ToolTip": "D:\\1101173\\Project73\\pj.73\\pj.73\\BedList.vb [Design]",
+              "RelativeToolTip": "pj.73\\BedList.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-08-23T14:32:30.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WardList AddWard.vb [Design]",
+              "DocumentMoniker": "D:\\1101173\\Project73\\pj.73\\pj.73\\WardList AddWard.vb",
+              "RelativeDocumentMoniker": "pj.73\\WardList AddWard.vb",
+              "ToolTip": "D:\\1101173\\Project73\\pj.73\\pj.73\\WardList AddWard.vb [Design]",
+              "RelativeToolTip": "pj.73\\WardList AddWard.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-08-23T14:15:26.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WardList.vb [Design]",
+              "DocumentMoniker": "D:\\1101173\\Project73\\pj.73\\pj.73\\WardList.vb",
+              "RelativeDocumentMoniker": "pj.73\\WardList.vb",
+              "ToolTip": "D:\\1101173\\Project73\\pj.73\\pj.73\\WardList.vb [Design]",
+              "RelativeToolTip": "pj.73\\WardList.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-08-23T14:01:41.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Main Menu.vb [Design]",
+              "DocumentMoniker": "D:\\1101173\\Project73\\pj.73\\pj.73\\Main Menu.vb",
+              "RelativeDocumentMoniker": "pj.73\\Main Menu.vb",
+              "ToolTip": "D:\\1101173\\Project73\\pj.73\\pj.73\\Main Menu.vb [Design]",
+              "RelativeToolTip": "pj.73\\Main Menu.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-08-20T08:33:51.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Main Menu.vb",
+              "DocumentMoniker": "D:\\1101173\\Project73\\pj.73\\pj.73\\Main Menu.vb",
+              "RelativeDocumentMoniker": "pj.73\\Main Menu.vb",
+              "ToolTip": "D:\\1101173\\Project73\\pj.73\\pj.73\\Main Menu.vb",
+              "RelativeToolTip": "pj.73\\Main Menu.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-08-20T08:42:45.466Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

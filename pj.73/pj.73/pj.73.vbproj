@@ -73,6 +73,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BedList.Designer.vb">
+      <DependentUpon>BedList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BedList.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Dashboard.Designer.vb">
       <DependentUpon>Dashboard.vb</DependentUpon>
     </Compile>
@@ -144,8 +150,23 @@
     <Compile Include="Ward.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="WardList AddWard.Designer.vb">
+      <DependentUpon>WardList AddWard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WardList AddWard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WardList.Designer.vb">
+      <DependentUpon>WardList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WardList.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="BedList.resx">
+      <DependentUpon>BedList.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.vb</DependentUpon>
     </EmbeddedResource>
@@ -178,6 +199,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Ward.resx">
       <DependentUpon>Ward.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WardList AddWard.resx">
+      <DependentUpon>WardList AddWard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WardList.resx">
+      <DependentUpon>WardList.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

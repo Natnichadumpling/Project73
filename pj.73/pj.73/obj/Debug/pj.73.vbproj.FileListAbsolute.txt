@@ -12,3 +12,27 @@ C:\Users\Asus Tuf\Source\Repos\pj.73\pj.73\obj\Debug\pj.73.xml
 C:\Users\Asus Tuf\Source\Repos\pj.73\pj.73\obj\Debug\pj.73.pdb
 C:\Users\Asus Tuf\Source\Repos\pj.73\pj.73\obj\Debug\pj.73.exe.config
 C:\Users\Asus Tuf\Source\Repos\pj.73\pj.73\obj\Debug\pj._73.Staff.resources
+D:\1101173\Project73\pj.73\pj.73\bin\Debug\pj.73.exe.config
+D:\1101173\Project73\pj.73\pj.73\bin\Debug\pj.73.exe
+D:\1101173\Project73\pj.73\pj.73\bin\Debug\pj.73.pdb
+D:\1101173\Project73\pj.73\pj.73\bin\Debug\pj.73.xml
+D:\1101173\Project73\pj.73\pj.73\obj\Debug\pj.73.vbproj.AssemblyReference.cache
+D:\1101173\Project73\pj.73\pj.73\obj\Debug\pj.73.exe.config
+D:\1101173\Project73\pj.73\pj.73\obj\Debug\pj._73.Dashboard.resources
+D:\1101173\Project73\pj.73\pj.73\obj\Debug\pj._73.Login.resources
+D:\1101173\Project73\pj.73\pj.73\obj\Debug\pj._73.MainMenu.resources
+D:\1101173\Project73\pj.73\pj.73\obj\Debug\pj._73.Resources.resources
+D:\1101173\Project73\pj.73\pj.73\obj\Debug\pj._73.Patient.resources
+D:\1101173\Project73\pj.73\pj.73\obj\Debug\pj._73.Requisition.resources
+D:\1101173\Project73\pj.73\pj.73\obj\Debug\pj._73.Staff.resources
+D:\1101173\Project73\pj.73\pj.73\obj\Debug\pj._73.Suppliers.resources
+D:\1101173\Project73\pj.73\pj.73\obj\Debug\pj._73.Supplies.resources
+D:\1101173\Project73\pj.73\pj.73\obj\Debug\pj._73.Ward.resources
+D:\1101173\Project73\pj.73\pj.73\obj\Debug\pj.73.vbproj.GenerateResource.cache
+D:\1101173\Project73\pj.73\pj.73\obj\Debug\pj.73.vbproj.CoreCompileInputs.cache
+D:\1101173\Project73\pj.73\pj.73\obj\Debug\pj.73.exe
+D:\1101173\Project73\pj.73\pj.73\obj\Debug\pj.73.xml
+D:\1101173\Project73\pj.73\pj.73\obj\Debug\pj.73.pdb
+D:\1101173\Project73\pj.73\pj.73\obj\Debug\pj._73.BedList.resources
+D:\1101173\Project73\pj.73\pj.73\obj\Debug\pj._73.WardList_AddWard.resources
+D:\1101173\Project73\pj.73\pj.73\obj\Debug\pj._73.WardList.resources
