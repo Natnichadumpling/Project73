@@ -37,5 +37,530 @@ pj.73
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="T:pj._73.DataDictionaryDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.BedDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.Edu_QualDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.EmergencyContactDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.In_PatientDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.Out_PatientDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.PatientDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.Patient_MedicationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.PayrollDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.Pharma_SuppliesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.RequestionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.ShiftDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.StaffDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.Staff_ContractDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.SupplierDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.SuppliesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.Waiting_ListDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.WardDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.Work_ExperienceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.vw_Dispense_ReportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.vw_InPatient_ReportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.vw_OutPatient_ReportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.vw_Requisition_ReportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.vw_Staff_ListDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.vw_Staff_ReportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.BedRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.Edu_QualRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.EmergencyContactRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.In_PatientRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.Out_PatientRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.PatientRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.Patient_MedicationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.PayrollRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.Pharma_SuppliesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.RequestionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.ShiftRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.StaffRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.Staff_ContractRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.SupplierRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.SuppliesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.Waiting_ListRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.WardRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.Work_ExperienceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.vw_Dispense_ReportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.vw_InPatient_ReportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.vw_OutPatient_ReportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.vw_Requisition_ReportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.vw_Staff_ListRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.vw_Staff_ReportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.BedRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.Edu_QualRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.EmergencyContactRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.In_PatientRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.Out_PatientRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.PatientRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.Patient_MedicationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.PayrollRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.Pharma_SuppliesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.RequestionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.ShiftRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.StaffRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.Staff_ContractRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.SupplierRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.SuppliesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.Waiting_ListRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.WardRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.Work_ExperienceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.vw_Dispense_ReportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.vw_InPatient_ReportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.vw_OutPatient_ReportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.vw_Requisition_ReportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.vw_Staff_ListRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSet.vw_Staff_ReportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSetTableAdapters.BedTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSetTableAdapters.Edu_QualTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSetTableAdapters.EmergencyContactTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSetTableAdapters.In_PatientTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSetTableAdapters.Out_PatientTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSetTableAdapters.PatientTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSetTableAdapters.Patient_MedicationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSetTableAdapters.PayrollTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSetTableAdapters.Pharma_SuppliesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSetTableAdapters.RequestionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSetTableAdapters.ShiftTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSetTableAdapters.StaffTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSetTableAdapters.Staff_ContractTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSetTableAdapters.SupplierTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSetTableAdapters.SuppliesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSetTableAdapters.Waiting_ListTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSetTableAdapters.WardTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSetTableAdapters.Work_ExperienceTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSetTableAdapters.vw_Dispense_ReportTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSetTableAdapters.vw_InPatient_ReportTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSetTableAdapters.vw_OutPatient_ReportTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSetTableAdapters.vw_Requisition_ReportTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSetTableAdapters.vw_Staff_ListTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSetTableAdapters.vw_Staff_ReportTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:pj._73.DataDictionaryDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(pj._73.DataDictionaryDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:pj._73.DataDictionaryDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(pj._73.DataDictionaryDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:pj._73.DataDictionaryDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(pj._73.DataDictionaryDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:pj._73.DataDictionaryDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:pj._73.DataDictionaryDataSetTableAdapters.TableAdapterManager.UpdateAll(pj._73.DataDictionaryDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:pj._73.DataDictionaryDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
 </members>
 </doc>

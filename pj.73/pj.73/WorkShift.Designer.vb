@@ -41,25 +41,27 @@ Partial Class WorkShift
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(98, 32)
+        Me.Label1.Location = New System.Drawing.Point(110, 40)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(49, 16)
+        Me.Label1.Size = New System.Drawing.Size(65, 20)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Staff ID"
         '
         'works_staff
         '
-        Me.works_staff.Location = New System.Drawing.Point(153, 26)
+        Me.works_staff.Location = New System.Drawing.Point(172, 32)
+        Me.works_staff.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.works_staff.Name = "works_staff"
-        Me.works_staff.Size = New System.Drawing.Size(122, 22)
+        Me.works_staff.Size = New System.Drawing.Size(137, 26)
         Me.works_staff.TabIndex = 1
         '
         'btnSearch2
         '
         Me.btnSearch2.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.btnSearch2.Location = New System.Drawing.Point(623, 26)
+        Me.btnSearch2.Location = New System.Drawing.Point(701, 32)
+        Me.btnSearch2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.btnSearch2.Name = "btnSearch2"
-        Me.btnSearch2.Size = New System.Drawing.Size(80, 25)
+        Me.btnSearch2.Size = New System.Drawing.Size(90, 31)
         Me.btnSearch2.TabIndex = 2
         Me.btnSearch2.Text = "Search"
         Me.btnSearch2.UseVisualStyleBackColor = False
@@ -67,84 +69,90 @@ Partial Class WorkShift
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(433, 32)
+        Me.Label2.Location = New System.Drawing.Point(487, 40)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(56, 16)
+        Me.Label2.Size = New System.Drawing.Size(68, 20)
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "Ward ID"
         '
         'works_ward
         '
-        Me.works_ward.Location = New System.Drawing.Point(495, 29)
+        Me.works_ward.Location = New System.Drawing.Point(557, 36)
+        Me.works_ward.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.works_ward.Name = "works_ward"
-        Me.works_ward.Size = New System.Drawing.Size(122, 22)
+        Me.works_ward.Size = New System.Drawing.Size(137, 26)
         Me.works_ward.TabIndex = 4
         '
         'btnSearch1
         '
         Me.btnSearch1.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.btnSearch1.Location = New System.Drawing.Point(281, 24)
+        Me.btnSearch1.Location = New System.Drawing.Point(316, 30)
+        Me.btnSearch1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.btnSearch1.Name = "btnSearch1"
-        Me.btnSearch1.Size = New System.Drawing.Size(80, 26)
+        Me.btnSearch1.Size = New System.Drawing.Size(90, 32)
         Me.btnSearch1.TabIndex = 5
         Me.btnSearch1.Text = "Search"
         Me.btnSearch1.UseVisualStyleBackColor = False
         '
         'DateTimePicker1
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(296, 151)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(333, 189)
+        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(243, 22)
+        Me.DateTimePicker1.Size = New System.Drawing.Size(273, 26)
         Me.DateTimePicker1.TabIndex = 6
         '
         'DateTimePicker2
         '
-        Me.DateTimePicker2.Location = New System.Drawing.Point(296, 214)
+        Me.DateTimePicker2.Location = New System.Drawing.Point(333, 274)
+        Me.DateTimePicker2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DateTimePicker2.Name = "DateTimePicker2"
-        Me.DateTimePicker2.Size = New System.Drawing.Size(243, 22)
+        Me.DateTimePicker2.Size = New System.Drawing.Size(273, 26)
         Me.DateTimePicker2.TabIndex = 7
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(389, 107)
+        Me.Label3.Location = New System.Drawing.Point(438, 134)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(64, 16)
+        Me.Label3.Size = New System.Drawing.Size(81, 20)
         Me.Label3.TabIndex = 8
         Me.Label3.Text = "Shift Date"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(218, 151)
+        Me.Label4.Location = New System.Drawing.Point(245, 189)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(66, 16)
+        Me.Label4.Size = New System.Drawing.Size(83, 20)
         Me.Label4.TabIndex = 9
         Me.Label4.Text = "Start Date"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(218, 219)
+        Me.Label5.Location = New System.Drawing.Point(245, 274)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(63, 16)
+        Me.Label5.Size = New System.Drawing.Size(77, 20)
         Me.Label5.TabIndex = 10
         Me.Label5.Text = "End Date"
         '
         'works_straffs
         '
         Me.works_straffs.FormattingEnabled = True
-        Me.works_straffs.Location = New System.Drawing.Point(101, 266)
+        Me.works_straffs.Location = New System.Drawing.Point(333, 347)
+        Me.works_straffs.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.works_straffs.Name = "works_straffs"
-        Me.works_straffs.Size = New System.Drawing.Size(183, 24)
+        Me.works_straffs.Size = New System.Drawing.Size(205, 28)
         Me.works_straffs.TabIndex = 11
         '
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Button1.Location = New System.Drawing.Point(221, 510)
+        Me.Button1.Location = New System.Drawing.Point(249, 638)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(100, 34)
+        Me.Button1.Size = New System.Drawing.Size(112, 42)
         Me.Button1.TabIndex = 12
         Me.Button1.Text = "Add"
         Me.Button1.UseVisualStyleBackColor = False
@@ -152,18 +160,19 @@ Partial Class WorkShift
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.Color.Red
-        Me.Button2.Location = New System.Drawing.Point(472, 510)
+        Me.Button2.Location = New System.Drawing.Point(531, 638)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(100, 34)
+        Me.Button2.Size = New System.Drawing.Size(112, 42)
         Me.Button2.TabIndex = 13
         Me.Button2.Text = "Delete"
         Me.Button2.UseVisualStyleBackColor = False
         '
         'WorkShift
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 595)
+        Me.ClientSize = New System.Drawing.Size(900, 744)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.works_straffs)
@@ -178,6 +187,7 @@ Partial Class WorkShift
         Me.Controls.Add(Me.btnSearch2)
         Me.Controls.Add(Me.works_staff)
         Me.Controls.Add(Me.Label1)
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "WorkShift"
         Me.Text = "WorkShift"
         Me.ResumeLayout(False)
