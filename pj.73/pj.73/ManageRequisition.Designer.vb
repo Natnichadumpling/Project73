@@ -40,9 +40,10 @@ Partial Class ManageRequisition
         'btnDelete
         '
         Me.btnDelete.BackColor = System.Drawing.Color.Red
-        Me.btnDelete.Location = New System.Drawing.Point(353, 419)
+        Me.btnDelete.Location = New System.Drawing.Point(530, 645)
+        Me.btnDelete.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.Size = New System.Drawing.Size(69, 27)
+        Me.btnDelete.Size = New System.Drawing.Size(104, 42)
         Me.btnDelete.TabIndex = 56
         Me.btnDelete.Text = "Delete"
         Me.btnDelete.UseVisualStyleBackColor = False
@@ -50,9 +51,10 @@ Partial Class ManageRequisition
         'btnOrder
         '
         Me.btnOrder.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.btnOrder.Location = New System.Drawing.Point(234, 419)
+        Me.btnOrder.Location = New System.Drawing.Point(351, 645)
+        Me.btnOrder.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btnOrder.Name = "btnOrder"
-        Me.btnOrder.Size = New System.Drawing.Size(69, 27)
+        Me.btnOrder.Size = New System.Drawing.Size(104, 42)
         Me.btnOrder.TabIndex = 55
         Me.btnOrder.Text = "Order"
         Me.btnOrder.UseVisualStyleBackColor = False
@@ -60,98 +62,109 @@ Partial Class ManageRequisition
         'manage_type
         '
         Me.manage_type.FormattingEnabled = True
-        Me.manage_type.Location = New System.Drawing.Point(258, 154)
+        Me.manage_type.Location = New System.Drawing.Point(387, 237)
+        Me.manage_type.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.manage_type.Name = "manage_type"
-        Me.manage_type.Size = New System.Drawing.Size(146, 21)
+        Me.manage_type.Size = New System.Drawing.Size(217, 28)
         Me.manage_type.TabIndex = 54
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(217, 209)
+        Me.Label5.Location = New System.Drawing.Point(326, 322)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(43, 13)
+        Me.Label5.Size = New System.Drawing.Size(65, 20)
         Me.Label5.TabIndex = 53
         Me.Label5.Text = "Amount"
         '
         'manage_amout
         '
-        Me.manage_amout.Location = New System.Drawing.Point(258, 206)
+        Me.manage_amout.Location = New System.Drawing.Point(387, 317)
+        Me.manage_amout.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.manage_amout.Name = "manage_amout"
-        Me.manage_amout.Size = New System.Drawing.Size(146, 20)
+        Me.manage_amout.Size = New System.Drawing.Size(217, 26)
         Me.manage_amout.TabIndex = 52
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(217, 154)
+        Me.Label4.Location = New System.Drawing.Point(326, 237)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(31, 13)
+        Me.Label4.Size = New System.Drawing.Size(43, 20)
         Me.Label4.TabIndex = 51
         Me.Label4.Text = "Type"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(181, 108)
+        Me.Label3.Location = New System.Drawing.Point(272, 166)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(70, 13)
+        Me.Label3.Size = New System.Drawing.Size(103, 20)
         Me.Label3.TabIndex = 50
         Me.Label3.Text = "Supply Name"
         '
         'manage_supplyname
         '
-        Me.manage_supplyname.Location = New System.Drawing.Point(258, 101)
+        Me.manage_supplyname.Location = New System.Drawing.Point(387, 155)
+        Me.manage_supplyname.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.manage_supplyname.Name = "manage_supplyname"
-        Me.manage_supplyname.Size = New System.Drawing.Size(146, 20)
+        Me.manage_supplyname.Size = New System.Drawing.Size(217, 26)
         Me.manage_supplyname.TabIndex = 49
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(198, 59)
+        Me.Label2.Location = New System.Drawing.Point(297, 91)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(53, 13)
+        Me.Label2.Size = New System.Drawing.Size(78, 20)
         Me.Label2.TabIndex = 48
         Me.Label2.Text = "Supply ID"
         '
         'manage_supplyid
         '
-        Me.manage_supplyid.Location = New System.Drawing.Point(258, 52)
+        Me.manage_supplyid.Location = New System.Drawing.Point(387, 80)
+        Me.manage_supplyid.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.manage_supplyid.Name = "manage_supplyid"
-        Me.manage_supplyid.Size = New System.Drawing.Size(146, 20)
+        Me.manage_supplyid.Size = New System.Drawing.Size(217, 26)
         Me.manage_supplyid.TabIndex = 47
         '
         'btnSearch
         '
-        Me.btnSearch.Location = New System.Drawing.Point(424, 4)
+        Me.btnSearch.Location = New System.Drawing.Point(636, 6)
+        Me.btnSearch.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btnSearch.Name = "btnSearch"
-        Me.btnSearch.Size = New System.Drawing.Size(91, 27)
+        Me.btnSearch.Size = New System.Drawing.Size(136, 42)
         Me.btnSearch.TabIndex = 46
         Me.btnSearch.Text = "SEARCH"
         Me.btnSearch.UseVisualStyleBackColor = True
         '
         'manage_wardid
         '
-        Me.manage_wardid.Location = New System.Drawing.Point(258, 8)
+        Me.manage_wardid.Location = New System.Drawing.Point(387, 12)
+        Me.manage_wardid.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.manage_wardid.Name = "manage_wardid"
-        Me.manage_wardid.Size = New System.Drawing.Size(146, 20)
+        Me.manage_wardid.Size = New System.Drawing.Size(217, 26)
         Me.manage_wardid.TabIndex = 45
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(198, 8)
+        Me.Label1.Location = New System.Drawing.Point(297, 12)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(50, 13)
+        Me.Label1.Size = New System.Drawing.Size(72, 20)
         Me.Label1.TabIndex = 44
         Me.Label1.Text = " Ward ID"
         '
-        'ManageRequsition
+        'ManageRequisition
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(991, 562)
         Me.Controls.Add(Me.btnDelete)
         Me.Controls.Add(Me.btnOrder)
         Me.Controls.Add(Me.manage_type)
@@ -165,7 +178,8 @@ Partial Class ManageRequisition
         Me.Controls.Add(Me.btnSearch)
         Me.Controls.Add(Me.manage_wardid)
         Me.Controls.Add(Me.Label1)
-        Me.Name = "ManageRequsition"
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Name = "ManageRequisition"
         Me.Text = "ManageRequsition"
         Me.ResumeLayout(False)
         Me.PerformLayout()

@@ -40,25 +40,27 @@ Partial Class WorkExperience
         '
         'manage_staffid
         '
-        Me.manage_staffid.Location = New System.Drawing.Point(315, 20)
+        Me.manage_staffid.Location = New System.Drawing.Point(354, 25)
+        Me.manage_staffid.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.manage_staffid.Name = "manage_staffid"
-        Me.manage_staffid.Size = New System.Drawing.Size(142, 22)
+        Me.manage_staffid.Size = New System.Drawing.Size(159, 26)
         Me.manage_staffid.TabIndex = 5
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(241, 26)
+        Me.Label1.Location = New System.Drawing.Point(271, 32)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(49, 16)
+        Me.Label1.Size = New System.Drawing.Size(65, 20)
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "Staff ID"
         '
         'btnSearch
         '
-        Me.btnSearch.Location = New System.Drawing.Point(479, 18)
+        Me.btnSearch.Location = New System.Drawing.Point(539, 22)
+        Me.btnSearch.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.btnSearch.Name = "btnSearch"
-        Me.btnSearch.Size = New System.Drawing.Size(78, 24)
+        Me.btnSearch.Size = New System.Drawing.Size(88, 30)
         Me.btnSearch.TabIndex = 3
         Me.btnSearch.Text = "SEARCH"
         Me.btnSearch.UseVisualStyleBackColor = True
@@ -66,73 +68,78 @@ Partial Class WorkExperience
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(168, 78)
+        Me.Label2.Location = New System.Drawing.Point(189, 98)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(122, 16)
+        Me.Label2.Size = New System.Drawing.Size(145, 20)
         Me.Label2.TabIndex = 6
         Me.Label2.Text = "Organization Name"
         '
         'mange_organizationname
         '
-        Me.mange_organizationname.Location = New System.Drawing.Point(315, 72)
+        Me.mange_organizationname.Location = New System.Drawing.Point(354, 90)
+        Me.mange_organizationname.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.mange_organizationname.Name = "mange_organizationname"
-        Me.mange_organizationname.Size = New System.Drawing.Size(137, 22)
+        Me.mange_organizationname.Size = New System.Drawing.Size(154, 26)
         Me.mange_organizationname.TabIndex = 7
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(235, 129)
+        Me.Label3.Location = New System.Drawing.Point(264, 161)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(55, 16)
+        Me.Label3.Size = New System.Drawing.Size(65, 20)
         Me.Label3.TabIndex = 8
         Me.Label3.Text = "Position"
         '
         'manage_position
         '
-        Me.manage_position.Location = New System.Drawing.Point(315, 123)
+        Me.manage_position.Location = New System.Drawing.Point(354, 154)
+        Me.manage_position.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.manage_position.Name = "manage_position"
-        Me.manage_position.Size = New System.Drawing.Size(137, 22)
+        Me.manage_position.Size = New System.Drawing.Size(154, 26)
         Me.manage_position.TabIndex = 9
         '
         'manage_start
         '
-        Me.manage_start.Location = New System.Drawing.Point(315, 174)
+        Me.manage_start.Location = New System.Drawing.Point(354, 218)
+        Me.manage_start.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.manage_start.Name = "manage_start"
-        Me.manage_start.Size = New System.Drawing.Size(137, 22)
+        Me.manage_start.Size = New System.Drawing.Size(154, 26)
         Me.manage_start.TabIndex = 11
         '
         'manage_end
         '
-        Me.manage_end.Location = New System.Drawing.Point(315, 223)
+        Me.manage_end.Location = New System.Drawing.Point(354, 279)
+        Me.manage_end.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.manage_end.Name = "manage_end"
-        Me.manage_end.Size = New System.Drawing.Size(137, 22)
+        Me.manage_end.Size = New System.Drawing.Size(154, 26)
         Me.manage_end.TabIndex = 12
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(224, 180)
+        Me.Label4.Location = New System.Drawing.Point(252, 225)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(66, 16)
+        Me.Label4.Size = New System.Drawing.Size(83, 20)
         Me.Label4.TabIndex = 10
         Me.Label4.Text = "Start Date"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(224, 229)
+        Me.Label5.Location = New System.Drawing.Point(252, 286)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(63, 16)
+        Me.Label5.Size = New System.Drawing.Size(77, 20)
         Me.Label5.TabIndex = 13
         Me.Label5.Text = "End Date"
         '
         'btnSave
         '
         Me.btnSave.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.btnSave.Location = New System.Drawing.Point(337, 272)
+        Me.btnSave.Location = New System.Drawing.Point(379, 340)
+        Me.btnSave.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.btnSave.Name = "btnSave"
-        Me.btnSave.Size = New System.Drawing.Size(71, 35)
+        Me.btnSave.Size = New System.Drawing.Size(80, 44)
         Me.btnSave.TabIndex = 14
         Me.btnSave.Text = "SAVE"
         Me.btnSave.UseVisualStyleBackColor = False
@@ -140,9 +147,10 @@ Partial Class WorkExperience
         'btnAdd
         '
         Me.btnAdd.BackColor = System.Drawing.Color.LightBlue
-        Me.btnAdd.Location = New System.Drawing.Point(434, 272)
+        Me.btnAdd.Location = New System.Drawing.Point(488, 340)
+        Me.btnAdd.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.btnAdd.Name = "btnAdd"
-        Me.btnAdd.Size = New System.Drawing.Size(71, 35)
+        Me.btnAdd.Size = New System.Drawing.Size(80, 44)
         Me.btnAdd.TabIndex = 15
         Me.btnAdd.Text = "ADD"
         Me.btnAdd.UseVisualStyleBackColor = False
@@ -150,18 +158,19 @@ Partial Class WorkExperience
         'btnDelete
         '
         Me.btnDelete.BackColor = System.Drawing.Color.Red
-        Me.btnDelete.Location = New System.Drawing.Point(535, 272)
+        Me.btnDelete.Location = New System.Drawing.Point(602, 340)
+        Me.btnDelete.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.Size = New System.Drawing.Size(71, 35)
+        Me.btnDelete.Size = New System.Drawing.Size(80, 44)
         Me.btnDelete.TabIndex = 16
         Me.btnDelete.Text = "DELETE"
         Me.btnDelete.UseVisualStyleBackColor = False
         '
         'WorkExperience
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 588)
+        Me.ClientSize = New System.Drawing.Size(991, 562)
         Me.Controls.Add(Me.btnDelete)
         Me.Controls.Add(Me.btnAdd)
         Me.Controls.Add(Me.btnSave)
@@ -176,6 +185,7 @@ Partial Class WorkExperience
         Me.Controls.Add(Me.manage_staffid)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnSearch)
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "WorkExperience"
         Me.Text = "WorkExperience"
         Me.ResumeLayout(False)

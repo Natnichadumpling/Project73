@@ -131,11 +131,11 @@ Partial Class In_Patient_Report
         Me.In_PatientDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.In_PatientDataGridView.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn1, Me.DataGridViewTextBoxColumn2, Me.DataGridViewTextBoxColumn3, Me.DataGridViewTextBoxColumn4, Me.DataGridViewTextBoxColumn5, Me.DataGridViewTextBoxColumn6, Me.DataGridViewTextBoxColumn7, Me.DataGridViewTextBoxColumn8, Me.DataGridViewTextBoxColumn9})
         Me.In_PatientDataGridView.DataSource = Me.In_PatientBindingSource
-        Me.In_PatientDataGridView.Location = New System.Drawing.Point(24, 165)
+        Me.In_PatientDataGridView.Location = New System.Drawing.Point(29, 132)
         Me.In_PatientDataGridView.Name = "In_PatientDataGridView"
         Me.In_PatientDataGridView.RowHeadersWidth = 62
         Me.In_PatientDataGridView.RowTemplate.Height = 28
-        Me.In_PatientDataGridView.Size = New System.Drawing.Size(843, 430)
+        Me.In_PatientDataGridView.Size = New System.Drawing.Size(877, 418)
         Me.In_PatientDataGridView.TabIndex = 20
         '
         'DataGridViewTextBoxColumn1
@@ -230,7 +230,7 @@ Partial Class In_Patient_Report
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(887, 960)
+        Me.ClientSize = New System.Drawing.Size(991, 562)
         Me.Controls.Add(Me.In_PatientComboBox)
         Me.Controls.Add(Me.In_PatientDataGridView)
         Me.Controls.Add(Me.Label2)

@@ -77,3 +77,6 @@ C:\Project73-main\Project73\pj.73\pj.73\obj\Debug\pj._73.StaffQualification.reso
 C:\Project73-main\Project73\pj.73\pj.73\obj\Debug\pj._73.StaffReport.resources
 C:\Project73-main\Project73\pj.73\pj.73\obj\Debug\pj._73.WorkExperience.resources
 C:\Project73-main\Project73\pj.73\pj.73\obj\Debug\pj._73.WorkShift.resources
+C:\Project73-main\Project73\pj.73\pj.73\obj\Debug\pj._73.ManageRequisition.resources
+C:\Project73-main\Project73\pj.73\pj.73\obj\Debug\pj._73.ManageStaff.resources
+C:\Project73-main\Project73\pj.73\pj.73\obj\Debug\pj._73.RequisitionReport.resources

@@ -31,48 +31,54 @@ Partial Class StaffReport
         'btnSearch
         '
         Me.btnSearch.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.btnSearch.Location = New System.Drawing.Point(284, 27)
+        Me.btnSearch.Location = New System.Drawing.Point(320, 34)
+        Me.btnSearch.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.btnSearch.Name = "btnSearch"
-        Me.btnSearch.Size = New System.Drawing.Size(78, 24)
+        Me.btnSearch.Size = New System.Drawing.Size(88, 30)
         Me.btnSearch.TabIndex = 9
         Me.btnSearch.Text = "SEARCH"
         Me.btnSearch.UseVisualStyleBackColor = False
         '
         'report_src
         '
-        Me.report_src.Location = New System.Drawing.Point(136, 28)
+        Me.report_src.Location = New System.Drawing.Point(153, 35)
+        Me.report_src.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.report_src.Name = "report_src"
-        Me.report_src.Size = New System.Drawing.Size(142, 22)
+        Me.report_src.Size = New System.Drawing.Size(159, 26)
         Me.report_src.TabIndex = 11
         '
         'report_filter
         '
         Me.report_filter.FormattingEnabled = True
-        Me.report_filter.Location = New System.Drawing.Point(466, 28)
+        Me.report_filter.Location = New System.Drawing.Point(524, 35)
+        Me.report_filter.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.report_filter.Name = "report_filter"
-        Me.report_filter.Size = New System.Drawing.Size(124, 24)
+        Me.report_filter.Size = New System.Drawing.Size(139, 28)
         Me.report_filter.TabIndex = 12
         '
         'btnFilter
         '
         Me.btnFilter.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.btnFilter.Location = New System.Drawing.Point(596, 28)
+        Me.btnFilter.Location = New System.Drawing.Point(670, 35)
+        Me.btnFilter.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.btnFilter.Name = "btnFilter"
-        Me.btnFilter.Size = New System.Drawing.Size(78, 24)
+        Me.btnFilter.Size = New System.Drawing.Size(88, 30)
         Me.btnFilter.TabIndex = 13
         Me.btnFilter.Text = "Filter"
         Me.btnFilter.UseVisualStyleBackColor = False
         '
         'StaffReport
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(991, 562)
         Me.Controls.Add(Me.btnFilter)
         Me.Controls.Add(Me.report_filter)
         Me.Controls.Add(Me.report_src)
         Me.Controls.Add(Me.btnSearch)
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "StaffReport"
+        Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show
         Me.Text = "StaffReport"
         Me.ResumeLayout(False)
         Me.PerformLayout()

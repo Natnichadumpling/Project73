@@ -18,4 +18,8 @@
         Dim Out_Patient_ReportForm As New Out_Patient_Report()
         Out_Patient_Report.Show()
     End Sub
+
+    Private Sub Patient_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

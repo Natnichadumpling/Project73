@@ -38,25 +38,27 @@ Partial Class StaffQualification
         '
         'squali_staffid
         '
-        Me.squali_staffid.Location = New System.Drawing.Point(310, 25)
+        Me.squali_staffid.Location = New System.Drawing.Point(349, 31)
+        Me.squali_staffid.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.squali_staffid.Name = "squali_staffid"
-        Me.squali_staffid.Size = New System.Drawing.Size(142, 22)
+        Me.squali_staffid.Size = New System.Drawing.Size(159, 26)
         Me.squali_staffid.TabIndex = 8
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(246, 31)
+        Me.Label1.Location = New System.Drawing.Point(277, 39)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(49, 16)
+        Me.Label1.Size = New System.Drawing.Size(65, 20)
         Me.Label1.TabIndex = 7
         Me.Label1.Text = "Staff ID"
         '
         'btnSearch
         '
-        Me.btnSearch.Location = New System.Drawing.Point(484, 23)
+        Me.btnSearch.Location = New System.Drawing.Point(544, 29)
+        Me.btnSearch.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.btnSearch.Name = "btnSearch"
-        Me.btnSearch.Size = New System.Drawing.Size(78, 24)
+        Me.btnSearch.Size = New System.Drawing.Size(88, 30)
         Me.btnSearch.TabIndex = 6
         Me.btnSearch.Text = "SEARCH"
         Me.btnSearch.UseVisualStyleBackColor = True
@@ -64,57 +66,61 @@ Partial Class StaffQualification
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(221, 92)
+        Me.Label2.Location = New System.Drawing.Point(249, 115)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(74, 16)
+        Me.Label2.Size = New System.Drawing.Size(85, 20)
         Me.Label2.TabIndex = 9
         Me.Label2.Text = "Type_Qual"
         '
         'squali_type
         '
-        Me.squali_type.Location = New System.Drawing.Point(310, 86)
+        Me.squali_type.Location = New System.Drawing.Point(349, 108)
+        Me.squali_type.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.squali_type.Name = "squali_type"
-        Me.squali_type.Size = New System.Drawing.Size(142, 22)
+        Me.squali_type.Size = New System.Drawing.Size(159, 26)
         Me.squali_type.TabIndex = 10
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(224, 142)
+        Me.Label3.Location = New System.Drawing.Point(252, 178)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(71, 16)
+        Me.Label3.Size = New System.Drawing.Size(86, 20)
         Me.Label3.TabIndex = 11
         Me.Label3.Text = "Date_Qual"
         '
         'squali_date
         '
-        Me.squali_date.Location = New System.Drawing.Point(312, 136)
+        Me.squali_date.Location = New System.Drawing.Point(351, 170)
+        Me.squali_date.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.squali_date.Name = "squali_date"
-        Me.squali_date.Size = New System.Drawing.Size(140, 22)
+        Me.squali_date.Size = New System.Drawing.Size(157, 26)
         Me.squali_date.TabIndex = 12
         '
         'Lable4
         '
         Me.Lable4.AutoSize = True
-        Me.Lable4.Location = New System.Drawing.Point(221, 190)
+        Me.Lable4.Location = New System.Drawing.Point(249, 238)
         Me.Lable4.Name = "Lable4"
-        Me.Lable4.Size = New System.Drawing.Size(69, 16)
+        Me.Lable4.Size = New System.Drawing.Size(88, 20)
         Me.Lable4.TabIndex = 13
         Me.Lable4.Text = "Instituation"
         '
         'squali_insti
         '
-        Me.squali_insti.Location = New System.Drawing.Point(312, 184)
+        Me.squali_insti.Location = New System.Drawing.Point(351, 230)
+        Me.squali_insti.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.squali_insti.Name = "squali_insti"
-        Me.squali_insti.Size = New System.Drawing.Size(140, 22)
+        Me.squali_insti.Size = New System.Drawing.Size(157, 26)
         Me.squali_insti.TabIndex = 14
         '
         'btnDelete
         '
         Me.btnDelete.BackColor = System.Drawing.Color.Red
-        Me.btnDelete.Location = New System.Drawing.Point(538, 229)
+        Me.btnDelete.Location = New System.Drawing.Point(605, 286)
+        Me.btnDelete.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.Size = New System.Drawing.Size(71, 35)
+        Me.btnDelete.Size = New System.Drawing.Size(80, 44)
         Me.btnDelete.TabIndex = 19
         Me.btnDelete.Text = "DELETE"
         Me.btnDelete.UseVisualStyleBackColor = False
@@ -122,9 +128,10 @@ Partial Class StaffQualification
         'btnAdd
         '
         Me.btnAdd.BackColor = System.Drawing.Color.LightBlue
-        Me.btnAdd.Location = New System.Drawing.Point(437, 229)
+        Me.btnAdd.Location = New System.Drawing.Point(492, 286)
+        Me.btnAdd.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.btnAdd.Name = "btnAdd"
-        Me.btnAdd.Size = New System.Drawing.Size(71, 35)
+        Me.btnAdd.Size = New System.Drawing.Size(80, 44)
         Me.btnAdd.TabIndex = 18
         Me.btnAdd.Text = "ADD"
         Me.btnAdd.UseVisualStyleBackColor = False
@@ -132,18 +139,19 @@ Partial Class StaffQualification
         'btnSave
         '
         Me.btnSave.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.btnSave.Location = New System.Drawing.Point(340, 229)
+        Me.btnSave.Location = New System.Drawing.Point(382, 286)
+        Me.btnSave.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.btnSave.Name = "btnSave"
-        Me.btnSave.Size = New System.Drawing.Size(71, 35)
+        Me.btnSave.Size = New System.Drawing.Size(80, 44)
         Me.btnSave.TabIndex = 17
         Me.btnSave.Text = "SAVE"
         Me.btnSave.UseVisualStyleBackColor = False
         '
         'StaffQualification
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(991, 562)
         Me.Controls.Add(Me.btnDelete)
         Me.Controls.Add(Me.btnAdd)
         Me.Controls.Add(Me.btnSave)
@@ -156,6 +164,7 @@ Partial Class StaffQualification
         Me.Controls.Add(Me.squali_staffid)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnSearch)
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "StaffQualification"
         Me.Text = "StaffQualification"
         Me.ResumeLayout(False)

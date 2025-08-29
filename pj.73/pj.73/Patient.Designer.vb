@@ -40,9 +40,8 @@ Partial Class Patient
         Me.PanelPatient.Controls.Add(Me.PictureBox1)
         Me.PanelPatient.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelPatient.Location = New System.Drawing.Point(0, 0)
-        Me.PanelPatient.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.PanelPatient.Name = "PanelPatient"
-        Me.PanelPatient.Size = New System.Drawing.Size(661, 365)
+        Me.PanelPatient.Size = New System.Drawing.Size(991, 562)
         Me.PanelPatient.TabIndex = 0
         '
         'TableLayoutPanel1
@@ -55,22 +54,20 @@ Partial Class Patient
         Me.TableLayoutPanel1.Controls.Add(Me.btnWaitinglist, 1, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.btnInPatientReport, 0, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.btnOutPatientReport, 1, 1)
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(177, 98)
-        Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(266, 151)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 2
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(309, 180)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(464, 277)
         Me.TableLayoutPanel1.TabIndex = 1
         '
         'btnManagePatient
         '
         Me.btnManagePatient.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.btnManagePatient.Location = New System.Drawing.Point(2, 2)
-        Me.btnManagePatient.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnManagePatient.Location = New System.Drawing.Point(3, 3)
         Me.btnManagePatient.Name = "btnManagePatient"
-        Me.btnManagePatient.Size = New System.Drawing.Size(150, 86)
+        Me.btnManagePatient.Size = New System.Drawing.Size(226, 132)
         Me.btnManagePatient.TabIndex = 0
         Me.btnManagePatient.Text = "Manage Patient"
         Me.btnManagePatient.UseVisualStyleBackColor = True
@@ -78,10 +75,9 @@ Partial Class Patient
         'btnWaitinglist
         '
         Me.btnWaitinglist.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.btnWaitinglist.Location = New System.Drawing.Point(156, 2)
-        Me.btnWaitinglist.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnWaitinglist.Location = New System.Drawing.Point(235, 3)
         Me.btnWaitinglist.Name = "btnWaitinglist"
-        Me.btnWaitinglist.Size = New System.Drawing.Size(151, 86)
+        Me.btnWaitinglist.Size = New System.Drawing.Size(226, 132)
         Me.btnWaitinglist.TabIndex = 1
         Me.btnWaitinglist.Text = "Waiting list"
         Me.btnWaitinglist.UseVisualStyleBackColor = True
@@ -89,10 +85,9 @@ Partial Class Patient
         'btnInPatientReport
         '
         Me.btnInPatientReport.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.btnInPatientReport.Location = New System.Drawing.Point(2, 92)
-        Me.btnInPatientReport.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnInPatientReport.Location = New System.Drawing.Point(3, 141)
         Me.btnInPatientReport.Name = "btnInPatientReport"
-        Me.btnInPatientReport.Size = New System.Drawing.Size(150, 86)
+        Me.btnInPatientReport.Size = New System.Drawing.Size(226, 133)
         Me.btnInPatientReport.TabIndex = 2
         Me.btnInPatientReport.Text = "In Patient Report"
         Me.btnInPatientReport.UseVisualStyleBackColor = True
@@ -100,10 +95,9 @@ Partial Class Patient
         'btnOutPatientReport
         '
         Me.btnOutPatientReport.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.btnOutPatientReport.Location = New System.Drawing.Point(156, 92)
-        Me.btnOutPatientReport.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnOutPatientReport.Location = New System.Drawing.Point(235, 141)
         Me.btnOutPatientReport.Name = "btnOutPatientReport"
-        Me.btnOutPatientReport.Size = New System.Drawing.Size(151, 86)
+        Me.btnOutPatientReport.Size = New System.Drawing.Size(226, 133)
         Me.btnOutPatientReport.TabIndex = 3
         Me.btnOutPatientReport.Text = "Out Patient Report"
         Me.btnOutPatientReport.UseVisualStyleBackColor = True
@@ -114,20 +108,18 @@ Partial Class Patient
         Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PictureBox1.Image = Global.pj._73.My.Resources.Resources.Screenshot_2025_08_08_161313
         Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(661, 365)
+        Me.PictureBox1.Size = New System.Drawing.Size(991, 562)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
         'Patient
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(661, 365)
+        Me.ClientSize = New System.Drawing.Size(991, 562)
         Me.Controls.Add(Me.PanelPatient)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "Patient"
         Me.Text = "Patient"
         Me.PanelPatient.ResumeLayout(False)

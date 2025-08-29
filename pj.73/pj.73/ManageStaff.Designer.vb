@@ -56,25 +56,27 @@ Partial Class ManageStaff
         '
         'manage_staff
         '
-        Me.manage_staff.Location = New System.Drawing.Point(196, 29)
+        Me.manage_staff.Location = New System.Drawing.Point(220, 36)
+        Me.manage_staff.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.manage_staff.Name = "manage_staff"
-        Me.manage_staff.Size = New System.Drawing.Size(142, 22)
+        Me.manage_staff.Size = New System.Drawing.Size(159, 26)
         Me.manage_staff.TabIndex = 11
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(130, 29)
+        Me.Label1.Location = New System.Drawing.Point(146, 36)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(49, 16)
+        Me.Label1.Size = New System.Drawing.Size(65, 20)
         Me.Label1.TabIndex = 10
         Me.Label1.Text = "Staff ID"
         '
         'btnSearch
         '
-        Me.btnSearch.Location = New System.Drawing.Point(358, 25)
+        Me.btnSearch.Location = New System.Drawing.Point(403, 31)
+        Me.btnSearch.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.btnSearch.Name = "btnSearch"
-        Me.btnSearch.Size = New System.Drawing.Size(78, 24)
+        Me.btnSearch.Size = New System.Drawing.Size(88, 30)
         Me.btnSearch.TabIndex = 9
         Me.btnSearch.Text = "SEARCH"
         Me.btnSearch.UseVisualStyleBackColor = True
@@ -82,9 +84,10 @@ Partial Class ManageStaff
         'btnNewstaff
         '
         Me.btnNewstaff.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.btnNewstaff.Location = New System.Drawing.Point(523, 27)
+        Me.btnNewstaff.Location = New System.Drawing.Point(588, 34)
+        Me.btnNewstaff.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.btnNewstaff.Name = "btnNewstaff"
-        Me.btnNewstaff.Size = New System.Drawing.Size(97, 24)
+        Me.btnNewstaff.Size = New System.Drawing.Size(109, 30)
         Me.btnNewstaff.TabIndex = 12
         Me.btnNewstaff.Text = "NEW STAFF"
         Me.btnNewstaff.UseVisualStyleBackColor = False
@@ -92,9 +95,10 @@ Partial Class ManageStaff
         'btnEdit
         '
         Me.btnEdit.BackColor = System.Drawing.Color.White
-        Me.btnEdit.Location = New System.Drawing.Point(523, 74)
+        Me.btnEdit.Location = New System.Drawing.Point(588, 92)
+        Me.btnEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.btnEdit.Name = "btnEdit"
-        Me.btnEdit.Size = New System.Drawing.Size(97, 24)
+        Me.btnEdit.Size = New System.Drawing.Size(109, 30)
         Me.btnEdit.TabIndex = 13
         Me.btnEdit.Text = "EDIT"
         Me.btnEdit.UseVisualStyleBackColor = False
@@ -102,9 +106,10 @@ Partial Class ManageStaff
         'btnDel
         '
         Me.btnDel.BackColor = System.Drawing.Color.Red
-        Me.btnDel.Location = New System.Drawing.Point(523, 123)
+        Me.btnDel.Location = New System.Drawing.Point(588, 154)
+        Me.btnDel.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.btnDel.Name = "btnDel"
-        Me.btnDel.Size = New System.Drawing.Size(97, 26)
+        Me.btnDel.Size = New System.Drawing.Size(109, 32)
         Me.btnDel.TabIndex = 14
         Me.btnDel.Text = "DELETE"
         Me.btnDel.UseVisualStyleBackColor = False
@@ -112,9 +117,10 @@ Partial Class ManageStaff
         'btnAddQuali
         '
         Me.btnAddQuali.BackColor = System.Drawing.Color.Silver
-        Me.btnAddQuali.Location = New System.Drawing.Point(523, 181)
+        Me.btnAddQuali.Location = New System.Drawing.Point(588, 226)
+        Me.btnAddQuali.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.btnAddQuali.Name = "btnAddQuali"
-        Me.btnAddQuali.Size = New System.Drawing.Size(141, 24)
+        Me.btnAddQuali.Size = New System.Drawing.Size(159, 30)
         Me.btnAddQuali.TabIndex = 15
         Me.btnAddQuali.Text = "Add Qualification"
         Me.btnAddQuali.UseVisualStyleBackColor = False
@@ -122,9 +128,10 @@ Partial Class ManageStaff
         'btnExper
         '
         Me.btnExper.BackColor = System.Drawing.Color.Silver
-        Me.btnExper.Location = New System.Drawing.Point(523, 231)
+        Me.btnExper.Location = New System.Drawing.Point(588, 289)
+        Me.btnExper.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.btnExper.Name = "btnExper"
-        Me.btnExper.Size = New System.Drawing.Size(141, 24)
+        Me.btnExper.Size = New System.Drawing.Size(159, 30)
         Me.btnExper.TabIndex = 16
         Me.btnExper.Text = "Work Experience"
         Me.btnExper.UseVisualStyleBackColor = False
@@ -132,9 +139,10 @@ Partial Class ManageStaff
         'btnPayroll
         '
         Me.btnPayroll.BackColor = System.Drawing.Color.Silver
-        Me.btnPayroll.Location = New System.Drawing.Point(523, 283)
+        Me.btnPayroll.Location = New System.Drawing.Point(588, 354)
+        Me.btnPayroll.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.btnPayroll.Name = "btnPayroll"
-        Me.btnPayroll.Size = New System.Drawing.Size(141, 24)
+        Me.btnPayroll.Size = New System.Drawing.Size(159, 30)
         Me.btnPayroll.TabIndex = 17
         Me.btnPayroll.Text = "Payroll"
         Me.btnPayroll.UseVisualStyleBackColor = False
@@ -142,179 +150,189 @@ Partial Class ManageStaff
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(130, 82)
+        Me.Label2.Location = New System.Drawing.Point(146, 102)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(99, 16)
+        Me.Label2.Size = New System.Drawing.Size(116, 20)
         Me.Label2.TabIndex = 18
         Me.Label2.Text = "Personal Detail"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(129, 132)
+        Me.Label3.Location = New System.Drawing.Point(145, 165)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(44, 16)
+        Me.Label3.Size = New System.Drawing.Size(51, 20)
         Me.Label3.TabIndex = 19
         Me.Label3.Text = "Name"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(129, 181)
+        Me.Label4.Location = New System.Drawing.Point(145, 226)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(61, 16)
+        Me.Label4.Size = New System.Drawing.Size(74, 20)
         Me.Label4.TabIndex = 20
         Me.Label4.Text = "Surname"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(130, 231)
+        Me.Label5.Location = New System.Drawing.Point(146, 289)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(58, 16)
+        Me.Label5.Size = New System.Drawing.Size(68, 20)
         Me.Label5.TabIndex = 21
         Me.Label5.Text = "Address"
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(130, 340)
+        Me.Label6.Location = New System.Drawing.Point(146, 425)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(27, 16)
+        Me.Label6.Size = New System.Drawing.Size(30, 20)
         Me.Label6.TabIndex = 22
         Me.Label6.Text = "Tel"
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(429, 337)
+        Me.Label7.Location = New System.Drawing.Point(483, 421)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(88, 16)
+        Me.Label7.Size = New System.Drawing.Size(104, 20)
         Me.Label7.TabIndex = 23
         Me.Label7.Text = "ContractType"
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(130, 400)
+        Me.Label8.Location = New System.Drawing.Point(146, 500)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(56, 16)
+        Me.Label8.Size = New System.Drawing.Size(67, 20)
         Me.Label8.TabIndex = 24
         Me.Label8.Text = "Birthday"
         '
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(486, 397)
+        Me.Label9.Location = New System.Drawing.Point(547, 496)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(30, 16)
+        Me.Label9.Size = New System.Drawing.Size(36, 20)
         Me.Label9.TabIndex = 25
         Me.Label9.Text = "NIN"
         '
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(130, 461)
+        Me.Label10.Location = New System.Drawing.Point(146, 576)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(30, 16)
+        Me.Label10.Size = New System.Drawing.Size(36, 20)
         Me.Label10.TabIndex = 26
         Me.Label10.Text = "Sex"
         '
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(429, 461)
+        Me.Label11.Location = New System.Drawing.Point(483, 576)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(87, 16)
+        Me.Label11.Size = New System.Drawing.Size(103, 20)
         Me.Label11.TabIndex = 27
         Me.Label11.Text = "ChargeNurse"
         '
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(130, 519)
+        Me.Label12.Location = New System.Drawing.Point(146, 649)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(55, 16)
+        Me.Label12.Size = New System.Drawing.Size(65, 20)
         Me.Label12.TabIndex = 28
         Me.Label12.Text = "Position"
         '
         'manage_name
         '
-        Me.manage_name.Location = New System.Drawing.Point(196, 126)
+        Me.manage_name.Location = New System.Drawing.Point(220, 158)
+        Me.manage_name.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.manage_name.Name = "manage_name"
-        Me.manage_name.Size = New System.Drawing.Size(142, 22)
+        Me.manage_name.Size = New System.Drawing.Size(159, 26)
         Me.manage_name.TabIndex = 29
         '
         'manage_surname
         '
-        Me.manage_surname.Location = New System.Drawing.Point(196, 175)
+        Me.manage_surname.Location = New System.Drawing.Point(220, 219)
+        Me.manage_surname.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.manage_surname.Name = "manage_surname"
-        Me.manage_surname.Size = New System.Drawing.Size(142, 22)
+        Me.manage_surname.Size = New System.Drawing.Size(159, 26)
         Me.manage_surname.TabIndex = 30
         '
         'manage_addr
         '
-        Me.manage_addr.Location = New System.Drawing.Point(196, 225)
+        Me.manage_addr.Location = New System.Drawing.Point(220, 281)
+        Me.manage_addr.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.manage_addr.Name = "manage_addr"
-        Me.manage_addr.Size = New System.Drawing.Size(240, 22)
+        Me.manage_addr.Size = New System.Drawing.Size(270, 26)
         Me.manage_addr.TabIndex = 31
         '
         'manage_tel
         '
-        Me.manage_tel.Location = New System.Drawing.Point(196, 334)
+        Me.manage_tel.Location = New System.Drawing.Point(220, 418)
+        Me.manage_tel.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.manage_tel.Name = "manage_tel"
-        Me.manage_tel.Size = New System.Drawing.Size(142, 22)
+        Me.manage_tel.Size = New System.Drawing.Size(159, 26)
         Me.manage_tel.TabIndex = 32
         '
         'DateTimePicker1
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(196, 394)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(220, 492)
+        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(251, 22)
+        Me.DateTimePicker1.Size = New System.Drawing.Size(282, 26)
         Me.DateTimePicker1.TabIndex = 33
         '
         'manage_sex
         '
         Me.manage_sex.FormattingEnabled = True
-        Me.manage_sex.Location = New System.Drawing.Point(196, 458)
+        Me.manage_sex.Location = New System.Drawing.Point(220, 572)
+        Me.manage_sex.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.manage_sex.Name = "manage_sex"
-        Me.manage_sex.Size = New System.Drawing.Size(153, 24)
+        Me.manage_sex.Size = New System.Drawing.Size(172, 28)
         Me.manage_sex.TabIndex = 34
         '
         'manage_position
         '
-        Me.manage_position.Location = New System.Drawing.Point(196, 513)
+        Me.manage_position.Location = New System.Drawing.Point(220, 641)
+        Me.manage_position.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.manage_position.Name = "manage_position"
-        Me.manage_position.Size = New System.Drawing.Size(142, 22)
+        Me.manage_position.Size = New System.Drawing.Size(159, 26)
         Me.manage_position.TabIndex = 35
         '
         'manage_contract
         '
         Me.manage_contract.FormattingEnabled = True
-        Me.manage_contract.Location = New System.Drawing.Point(523, 334)
+        Me.manage_contract.Location = New System.Drawing.Point(588, 418)
+        Me.manage_contract.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.manage_contract.Name = "manage_contract"
-        Me.manage_contract.Size = New System.Drawing.Size(153, 24)
+        Me.manage_contract.Size = New System.Drawing.Size(172, 28)
         Me.manage_contract.TabIndex = 36
         '
         'manage_nin
         '
-        Me.manage_nin.Location = New System.Drawing.Point(523, 394)
+        Me.manage_nin.Location = New System.Drawing.Point(588, 492)
+        Me.manage_nin.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.manage_nin.Name = "manage_nin"
-        Me.manage_nin.Size = New System.Drawing.Size(153, 22)
+        Me.manage_nin.Size = New System.Drawing.Size(172, 26)
         Me.manage_nin.TabIndex = 37
         '
         'manage_charn
         '
-        Me.manage_charn.Location = New System.Drawing.Point(523, 455)
+        Me.manage_charn.Location = New System.Drawing.Point(588, 569)
+        Me.manage_charn.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.manage_charn.Name = "manage_charn"
-        Me.manage_charn.Size = New System.Drawing.Size(153, 22)
+        Me.manage_charn.Size = New System.Drawing.Size(172, 26)
         Me.manage_charn.TabIndex = 38
         '
         'ManageStaff
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 695)
+        Me.ClientSize = New System.Drawing.Size(991, 562)
         Me.Controls.Add(Me.manage_charn)
         Me.Controls.Add(Me.manage_nin)
         Me.Controls.Add(Me.manage_contract)
@@ -345,6 +363,7 @@ Partial Class ManageStaff
         Me.Controls.Add(Me.manage_staff)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnSearch)
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "ManageStaff"
         Me.Text = "ManageStaff"
         Me.ResumeLayout(False)

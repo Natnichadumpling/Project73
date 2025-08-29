@@ -28,28 +28,31 @@ Partial Class DispenseReport
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(38, 28)
+        Me.TextBox1.Location = New System.Drawing.Point(57, 43)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(190, 20)
+        Me.TextBox1.Size = New System.Drawing.Size(283, 26)
         Me.TextBox1.TabIndex = 0
         '
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Button1.Location = New System.Drawing.Point(234, 26)
+        Me.Button1.Location = New System.Drawing.Point(351, 40)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(112, 35)
         Me.Button1.TabIndex = 1
         Me.Button1.Text = "SEARCH"
         Me.Button1.UseVisualStyleBackColor = False
         '
         'DispenseReport
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(991, 562)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TextBox1)
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "DispenseReport"
         Me.Text = "DispenseReport"
         Me.ResumeLayout(False)
